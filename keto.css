@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading_content {
+  text-align: center;
+}
+.heading_content h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.heading_content h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.heading_content h3 {
+  font-weight: 300;
+}
+/*starting of div of main calculator*/
+.ketocal {
+  display: grid;
+  grid-template-columns: 70%;
+  row-gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 25px;
+}
+.input_keto {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  justify-items: left;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*LABEL CSS*/
+.label_input {
+  font-size: 12px;
+  color: rgb(150, 149, 149);
+  font-weight: 300;
+}
+/*Input css*/
+.ketocal input {
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(150, 149, 149, 0.194);
+  font-weight: 400;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  width: 80%;
+}
+.ketocal hr {
+  height: 2px;
+  background-color: rgba(150, 149, 149, 0.491);
+  width: 100%;
+  border: none;
+}
+.age_input h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.age_input p
+{
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(150, 149, 149, 0.858);
+    margin-bottom: 10px;
+    text-align: justify;
+}

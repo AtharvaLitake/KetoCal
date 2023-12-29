@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KetoCalculator</title>
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="keto.css">
 </head>
+
 <body>
-    
+    <div class="heading_content">
+        <h1>Ketogenic Calculator</h1>
+        <h2>Starting on a ketogenic diet? Let's calculate how much you should eat.</h2>
+        <h3>We use the information you put in to create an accurate keto nutrition profile for you.</h3>
+    </div>
+    <form action="">
+        <div class="ketocal">
+            <div class="input_keto">
+                <div class="label_input">
+                    <h2>YOUR AGE</h2>
+                </div>
+                <div class="age_input">
+                    <input type="number">
+                </div>
+            </div>
+            <!-- Horizontal Ruler -->
+            <hr>
+            <div class="input_keto">
+                <div class="label_input">
+                    <h2>BODY FAT PERCENTAGE</h2>
+                </div>
+                <div class="age_input">
+                    <h4>What is your body fat percentage?</h4>
+                    <p>BMI and body fat are two different measurements. If you don't have calipers or a DEXA machine,
+                        use our guide to visually estimate body fat percentage.</p>
+                    <input type="number">
+                </div>
+            </div>
+        </div>
+    </form>
+    <!--JAVASCRIPT FILE-->
+    <script src="keto.js"></script>
 </body>
+
 </html>
