@@ -50,7 +50,7 @@
   font-weight: 300;
 }
 /*Input css*/
-.ketocal input {
+.age_input input {
   text-align: center;
   font-size: 20px;
   background-color: rgba(150, 149, 149, 0.194);
@@ -79,4 +79,56 @@
     color: rgba(150, 149, 149, 0.858);
     margin-bottom: 10px;
     text-align: justify;
+}
+.protein_input h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.protein_input p
+{
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(150, 149, 149, 0.858);
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.protein_input input {
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(150, 149, 149, 0.194);
+  font-weight: 400;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  width: 20%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.protein_intake
+{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+.protein_intake img
+{
+  height: 80px;
+  width: 80px;
+}
+.intake1
+{
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+.intake1 p
+{
+  font-size: 13px;
+  color: black;
 }
